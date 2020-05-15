@@ -10,6 +10,6 @@ apk del --purge curl
 rm -rf /var/cache/apk/* /tmp/*
 
 #php and nginx
-apk add --no-cache php7-fpm php7-mysqli php7-bcmath php7-curl php7-exif php7-fileinfo php7-imagick php7-gd php7-json php7-session nginx
+apk add --no-cache php7-fpm php7-mysqli php7-ctype php7-ldap php7-soap php7-zip php7-bcmath php7-curl php7-exif php7-fileinfo php7-imagick php7-gd php7-json php7-session nginx
 
 
